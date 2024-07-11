@@ -5,9 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Document</title>
+    <title>Weather App</title>
 </head>
 <body>
-    
+    <div id="weather-container">
+        <h2>Weather</h2>
+        <input type="text" id="city" placeholder="Search City">
+        <button onclick="getWheather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon">
+
+        <div id="temp-div"></div>
+
+        <div id="weather-info"></div>
+
+        <div id="hourly-forecast"></div>
+    </div>   
+    <script src="script.js"></script>
 </body>
 </html>

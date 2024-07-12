@@ -9,18 +9,6 @@ body{
     justify-content: center;
     display: flex;
 }
-
-#weather-container{
-    background-color: transparent;
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    backdrop-filter: blur(10px);
-    border: 1px solid black;
-    box-shadow: 0 4px ;
-
-}
 h2, label, p {
     color: #ffffff;
     margin: 8px 0;
@@ -107,4 +95,15 @@ button:hover{
     text-align: center;
     border: 1px solid black;
     box-shadow: 0 4px ;
+}
+#weather-container{
+    background-color: transparent;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid black;
+    box-shadow: 0 4px ;
+
 }

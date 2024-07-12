@@ -99,7 +99,7 @@
     #inhf{
         background-color: white;
         max-width: 400px;
-        padding: 30px;
+        padding: 35px;
         border-radius: 15px;
         text-align: center;
         border: 1px solid black;
@@ -199,7 +199,7 @@
                 const iconId = data.weather[0].icon;
                 const iconUrl = `http://openweathermap.org/img/wn/${iconId}@4x.png`;
         
-                const temperatureHTML = `<p>${temperature} °C</p>`;
+                const temperatureHTML = `<p>${temperature}°C</p>`;
                 const weatherHTML = `<p>${cityName}</p> <p>${description}</p>`;
         
                 tempDivInfo.innerHTML = temperatureHTML;
@@ -226,7 +226,7 @@
           <div class="hourly-item">
             <span>${hour}:00</span> 
             <img src="${iconUrl}" alt="Hourly icon"> 
-            <span>${temperature} °C</span>
+            <span>${temperature}°C</span>
           </div>
         `;
         

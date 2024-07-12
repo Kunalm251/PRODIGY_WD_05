@@ -90,11 +90,13 @@ button:hover{
 #inhf{
     background-color: white;
     max-width: 400px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     text-align: center;
     border: 1px solid black;
     box-shadow: 0 4px ;
+    margin-left: 20px;
+    
 }
 #weather-container{
     background-color: transparent;
@@ -105,5 +107,12 @@ button:hover{
     backdrop-filter: blur(10px);
     border: 1px solid black;
     box-shadow: 0 4px ;
+    
 
+}
+h3 {
+    color: #000;
+    font-size: 20px;
+    
+    
 }

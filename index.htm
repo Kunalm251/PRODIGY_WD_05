@@ -8,19 +8,21 @@
     <title>Weather App</title>
 </head>
 <body>
-    <div id="weather-container">
+    <section  id="weather-container">
+    <div>
         <h2>Weather</h2>
         <input type="text" id="city" placeholder="Search City">
-        <button onclick="getWheather()">Search</button>
+        <button onclick="getWeather()">Search</button>
 
         <img id="weather-icon" alt="Weather Icon">
-
         <div id="temp-div"></div>
-
         <div id="weather-info"></div>
-
-        <div id="hourly-forecast"></div>
+       
     </div>   
+    </section>
+    <section id="inhf">
+    <div id="hourly-forecast"></div> 
+    </section>
     <script src="script.js"></script>
 </body>
 </html>

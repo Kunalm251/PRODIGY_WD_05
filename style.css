@@ -11,7 +11,7 @@ body{
 }
 
 #weather-container{
-    background: white;
+    background-color: transparent;
     max-width: 400px;
     padding: 20px;
     border-radius: 15px;
@@ -19,9 +19,10 @@ body{
     backdrop-filter: blur(10px);
     border: 1px solid black;
     box-shadow: 0 4px ;
+
 }
 h2, label, p {
-    color: #000;
+    color: #ffffff;
     margin: 8px 0;
 }
 
@@ -41,7 +42,7 @@ button{
     border: none;
     cursor: pointer;
     font-size: 15px;
-    color: white;
+    color: rgb(255, 254, 254);
     background: #000;
 }
 
@@ -71,18 +72,19 @@ button:hover{
 #hourly-forcast {
     display: flex;
     margin-top: 50px;
-    overflow-x: auto;
     white-space: nowrap;
     justify-content: space-between;
+    flex-direction: row;
+    
 }
 
 .hourly-item {
-    width:80px;
-    flex: 0 0 auto;
+    width:100px;
+    height: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right: 10px;
 }
 
@@ -95,4 +97,14 @@ button:hover{
 #hourly-heading {
     color: #000;
     margin-top: 10px;
+}
+
+#inhf{
+    background-color: white;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 4px ;
 }
